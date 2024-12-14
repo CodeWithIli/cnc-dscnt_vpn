@@ -5,11 +5,11 @@ In addition to offering a VPN, Tailscale also **allows you to share files across
 
 Usage:
 Install the script:
-`npm install -g your-package-name`
+`npm install -g vpn-toggle`
 
 Run the script:
 To toggle the Tailscale VPN connection (connect if disconnected, disconnect if connected), run the following command:
-`connect-vpn`
+`vpn-toggle`
 
 This command will automatically detect whether the VPN is **connected or not**, and it will either connect or disconnect *accordingly*.
 
